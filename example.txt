@@ -1,1 +1,2 @@
-good commit
+Hamlet:
+I will.
