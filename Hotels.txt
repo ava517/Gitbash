@@ -1,0 +1,15 @@
+Private Sub CommandButton1_Click()
+     '1.新增資料
+     r = Range("A1").End(xlDown).Row + 1
+     Cells(r, "A") = TextBox1.Text
+     Cells(r, "B") = TextBox2.Text
+     Cells(r, "C") = TextBox3.Text
+     Cells(r, "D") = TextBox4.Text
+     '2.清除資料
+     TextBox1.Text = ""
+     TextBox2.Text = ""
+     TextBox3.Text = ""
+     TextBox4.Text = ""
+     '3.游標放在第一位置
+     TextBox1.SetFocus
+End Sub
